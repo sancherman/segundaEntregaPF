@@ -88,15 +88,17 @@ h2{
 .btn{
     background-color: #005f65;
 }
-footer{
-    background-image: url(../img/fondoFooter.jpg);
+.imgFondoFooter{
     height: 300px;
 }
-.padreFooter h4{
+.padreFooter section h4{
     color: #005f65;
+    font-size: large;
+    font-weight: bold;
 }
-.madeBy{
-    color: #005f65;
+.padreFooter section h5{
+    color:#3f4549;
+    font-size: large;
 }
 .padreFooter section a img{
     transition: all 1s ease;
@@ -105,4 +107,7 @@ footer{
     transform: scale(1) translateX(5px) translateY(5px);
     background-color: #6c757d;
     border-radius: 50px;
+}
+.madeBy{
+    color: #005f65;
 }
